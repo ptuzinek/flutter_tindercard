@@ -222,11 +222,11 @@ class _TinderSwapCardState extends State<TinderSwapCard>
                     details.delta.dy * 30 / MediaQuery.of(context).size.height,
               );
             } else {
-              frontCardAlign = Alignment(
-                frontCardAlign.x +
-                    details.delta.dx * 20 / MediaQuery.of(context).size.width,
-                0,
-              );
+              // frontCardAlign = Alignment(
+              //   frontCardAlign.x +
+              //       details.delta.dx * 20 / MediaQuery.of(context).size.width,
+              //   0,
+              // );
 
               if (widget.swipeUpdateCallback != null) {
                 widget.swipeUpdateCallback(details, frontCardAlign);
