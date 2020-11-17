@@ -65,7 +65,7 @@ class TinderSwapCard extends StatefulWidget {
     this.cardController,
     this.swipeCompleteCallback,
     this.swipeUpdateCallback,
-  })  : assert(stackNum > 1),
+  })  : //assert(stackNum > 1),
         assert(swipeEdge > 0),
         assert(swipeEdgeVertical > 0),
         assert(maxWidth > minWidth && maxHeight > minHeight),
